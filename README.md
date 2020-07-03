@@ -31,11 +31,11 @@ Our face mask detector didn't uses any morphed masked images dataset. The model 
 
 As far as the facial recognotion part is concerned , I have used Keras-OpenFace pre-trained model for feeding the face images to generate 128 dimensions embedding vector. OpenFace, which is an open face deep learning facial recognition model. It’s based on the paper: FaceNet: A Unified Embedding for Face Recognition and Clustering by Florian Schroff, Dmitry Kalenichenko, and James Philbin at Google. OpenFace is implemented using Python and Torch which allows the network to be executed on a CPU or with CUDA.
 
-![Open Face Architecture](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/openface.png)
+![Open Face Architecture](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/openface.PNG)
 
 I am using this pre-trained network to compare the embedding vectors of the images stored in the file system with the embedding vector of the image captured from the webcam. This can be explained by the below diagram.
 
-![Facial recognition using one-shot learning](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/faceuseonshot.png)
+![Facial recognition using one-shot learning](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/faceuseonshot.PNG)
 
 As per the above diagram, if the face captured by webcam has similar 128-bit embedding vector stored in the database then it can recognize the person. All the images stored in the file system are converted to a dictionary with names as key and embedding vectors as value.
 
