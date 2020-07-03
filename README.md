@@ -33,11 +33,12 @@ As far as the facial recognotion part is concerned , I have used Keras-OpenFace 
 
 Open Face Architecture 👇👇👇👇👇👇
 
-(https://github.com/vedantsahai18/College-Covid-System/blob/master/images/openface.png)
+![](https://github.com/vedantsahai18/College-Covid-System/blob/master/images/openface.png)
 
 I am using this pre-trained network to compare the embedding vectors of the images stored in the file system with the embedding vector of the image captured from the webcam. This can be explained by the below diagram.
 
-![Facial recognition using one-shot learning](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/faceuseonshot.png)
+![](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/faceuseonshot.png)
+
 
 As per the above diagram, if the face captured by webcam has similar 128-bit embedding vector stored in the database then it can recognize the person. All the images stored in the file system are converted to a dictionary with names as key and embedding vectors as value.
 
@@ -46,12 +47,12 @@ This system can therefore be used in real-time applications which require face-m
 # One Shot Learning
 In one shot learning, only one image per person is stored in the database which is passed through the neural network to generate an embedding vector. This embedding vector is compared with the vector generated for the person who has to be recognized. If there exist similarities between the two vectors then the system recognizes that person, else that person is not there in the database. This can be understood by below picture.
 
-![One Shot Learning](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/One%20Shot%20Learning.JPG)
+![](https://github.com/vedantsahai18/College-Covid-System/blob/master/images/One%20Shot%20Learning.JPG)
 
 # Triplet Loss Function
 Here we are using OpenFace pre-trained model for facial recognition. Without going into much details on how this neural network identify two same faces, let's say that the model is trained on a large set of face data with a loss function which groups identical images together and separate non-identical faces away from each other. Its also known as triplet loss function.
 
-![Triplet Loss Function](https://github.com/vedantsahai18/College-Covid-System/blob/master/images/Triplet%20Loss%20Function.JPG)
+![](https://github.com/vedantsahai18/College-Covid-System/blob/master/images/Triplet%20Loss%20Function.JPG)
 
 ## :file_folder: Dataset
 
