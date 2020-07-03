@@ -30,6 +30,9 @@ Face Mask Detetction and Recognition on a live video 👇👇👇👇👇👇
 - [TensorFlow](https://www.tensorflow.org/)
 - [MobileNetV2](https://arxiv.org/abs/1801.04381)
 - [Keras-Opencface](https://github.com/iwantooxxoox/Keras-OpenFace)
+- [Opencface](https://github.com/cmusatyalab/openface)
+- [FaceNet](https://arxiv.org/pdf/1503.03832.pdf)
+
 ## :star: Features
 Our face mask detector didn't uses any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
 
