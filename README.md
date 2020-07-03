@@ -17,6 +17,10 @@ Face Mask Detetction on an input image 👇👇👇👇👇👇
 
 <p align="center"><img src="https://github.com/vedantsahai18/College-Covid-System/blob/master/images/validation.png" width="720" height="480"></p>
 
+Face Mask Detetction and Recognition on a live video 👇👇👇👇👇👇
+
+<p align="center"><img src="https://github.com/vedantsahai18/College-Covid-System/blob/master/images/Demo2.gif" width="720" height="480"></p>
+
 
 ## :warning: Tech/framework used
 
