@@ -256,4 +256,4 @@ for name in weights:
 
 if not os.path.exists('./model'):
     os.makedirs('./model')
-model.save('./model/face-rec.model')
+model.save('./model/face-rec.h5')

@@ -103,7 +103,7 @@ $ python train_mask_detector.py --dataset dataset
 
 2. To train facial recognition 
 ```
-$ python detect_mask_image.py --image images/pic1.jpeg
+$ python train_face_recognition.py
 ```
 
 3. To train mask detection 
@@ -113,7 +113,7 @@ $ python train_mask_detector.py --datatset dataset
 
 4. Now detect the face masks in images 
 ```
-$ python detect_mask_image.py --image images/pic1.jpeg
+$ python image.py (in the code write the image path)
 ```
 
 5. To capture image of yourself ( type name and press enter and then exit/next person) 
@@ -123,7 +123,7 @@ $ python capture.py
 
 6. Detection & Recognition in real-time video streams
 ```
-$ python detect_mask_video.py 
+$ python webcam.py 
 ```
 ## :key: Results
 
