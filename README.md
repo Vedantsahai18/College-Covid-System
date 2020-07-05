@@ -44,7 +44,7 @@ Open Face Architecture 👇👇👇👇👇👇
 
 I am using this pre-trained network to compare the embedding vectors of the images stored in the file system with the embedding vector of the image captured from the webcam. This can be explained by the below diagram.
 
-![](https://github.com/vedantsahai18/COVID-Face-Mask-Detection/blob/master/images/faceuseonshot.png)
+![](https://github.com/vedantsahai18/College-Covid-System/blob/master/images/faceuseonshot.png)
 
 
 As per the above diagram, if the face captured by webcam has similar 128-bit embedding vector stored in the database then it can recognize the person. All the images stored in the file system are converted to a dictionary with names as key and embedding vectors as value.
