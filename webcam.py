@@ -18,7 +18,7 @@ screenWidth = 1200
 screenHeight = 700
 identity= None
 
-def webcam():
+def predict_webcam():
 	# construct the argument parser and parse the arguments
 	ap = argparse.ArgumentParser()
 	ap.add_argument("-m", "--model", type=str,
@@ -102,4 +102,4 @@ def webcam():
 	cv2.destroyAllWindows()
 	vs.stop()
 
-webcam()
+predict_webcam()

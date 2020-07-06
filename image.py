@@ -10,10 +10,19 @@ import argparse
 import cv2
 import imutils
 import os
+from PIL import Image
+import requests
+from io import BytesIO
+import json
 from detect_identity import create_input_image_embeddings,recognize_face
 from detect_mask import detect_and_predict_mask
 
-def image(url):
+def predict_image(url):
+
+	# read the image from the URL
+	#response = requests.get(url)
+	#img = Image.open(BytesIO(response.content))
+	img=url
 	# construct the argument parser and parse the arguments
 	ap = argparse.ArgumentParser()
 	ap.add_argument("-m", "--model", type=str,
@@ -37,7 +46,7 @@ def image(url):
 
 	# load the input image from disk, clone it, and grab the image spatial
 	# dimensions
-	image = cv2.imread(url)
+	image = cv2.imread(img)
 	orig = image.copy()
 	(h, w) = image.shape[:2]
 
@@ -70,4 +79,4 @@ def image(url):
 		cv2.waitKey(0)
 			#cv2.destroyAllWindows()
 
-image('./face_images/Vedant.jpg')
+#predict_image('./face_images/Vedant.jpg')
