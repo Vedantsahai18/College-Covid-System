@@ -63,7 +63,8 @@ Here we are using OpenFace pre-trained model for facial recognition. Without goi
 
 ## :file_folder: Dataset
 
-Please download the dataset in the dataset folder and unzip inside it .The link is as follows- [Click to Download](https://drive.google.com/drive/folders/1o3L0lNbhU3Vq8HjweHTT6VINbEL7ejuj?usp=sharing)
+Please download the dataset in the dataset folder and unzip inside it .
+To get access tot he dataset please contact me .
 
 This dataset consists of __10563 images__ belonging to two classes:
 *	__with_mask: 7130 images__
